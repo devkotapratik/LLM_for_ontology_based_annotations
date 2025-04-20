@@ -19,14 +19,16 @@ We also investigate techniques such as **Parameter-Efficient Fine-Tuning (PEFT)*
 ## 🗂️ Project Structure
 ```
 .
-├── data/
-├── models/               # Fine-tuning configurations for LLMs
+├── configs/              # Fine-tuning configurations for LLMs
+├── data/                 # Preprocessed CRAFT dataset and ontology mappings
+├── model_output/         # Saved model checkpoints, logs, and generated annotations
+├── notebooks/            # Jupyter notebooks for exploratory analysis
+├── results/              # Evaluation results, metrics, and figures
 ├── scripts/              # Preprocessing, training, evaluation, and inference scripts
 ├── utils/                # Helper functions for parsing, evaluation, and visualization
-├── results/              # Evaluation results, metrics, and figures
-├── notebooks/            # Jupyter notebooks for exploratory analysis
-├── requirements.txt      # Python dependencies
-└── README.md             # Project documentation
+├── LICENSE               # Project license information
+├── README.md             # Project documentation
+└── requirements.txt      # Python dependencies
 ```
 
 ## 🚀 Getting Started
@@ -38,7 +40,7 @@ cd LLM_for_ontology_based_annotations
 ```
 
 ### 2. Install dependencies
-```
+```bash
 pip install -r requirements.txt
 ```
 
