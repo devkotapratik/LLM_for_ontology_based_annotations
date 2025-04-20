@@ -15,20 +15,19 @@ In this project, we explore the potential of fine-tuned Large Language Models (L
 
 We also investigate techniques such as **Parameter-Efficient Fine-Tuning (PEFT)** and **advanced prompting** to address computational efficiency.
 
----
 
 ## 🗂️ Project Structure
-
+```
 .
-├── data/              # Preprocessed CRAFT dataset and ontology mappings
-├── models/            # Fine-tuning configurations for LLMs
-├── scripts/           # Preprocessing, training, evaluation, and inference scripts
-├── utils/             # Helper functions for parsing, evaluation, and visualization
-├── results/           # Evaluation results, metrics, and figures
-├── notebooks/         # Jupyter notebooks for exploratory analysis
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
-
+├── data/
+├── models/               # Fine-tuning configurations for LLMs
+├── scripts/              # Preprocessing, training, evaluation, and inference scripts
+├── utils/                # Helper functions for parsing, evaluation, and visualization
+├── results/              # Evaluation results, metrics, and figures
+├── notebooks/            # Jupyter notebooks for exploratory analysis
+├── requirements.txt      # Python dependencies
+└── README.md             # Project documentation
+```
 
 ## 🚀 Getting Started
 
@@ -39,11 +38,12 @@ cd LLM_for_ontology_based_annotations
 ```
 
 ### 2. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 
 ### 3. Download the CRAFT dataset
-Follow the instructions in data/README.md to download and preprocess the dataset.
+Follow the instructions in ```data/README.md``` to download and preprocess the dataset.
 
 ### 4. Fine-tune a model
 Example for fine-tuning BiomedLM:
