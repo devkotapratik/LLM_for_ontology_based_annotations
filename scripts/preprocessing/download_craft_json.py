@@ -141,7 +141,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download CRAFT dataset from github.")
-    parser.add_argument('--data_dir', type=str, required=True, help='Path to download data to.')
+    parser.add_argument('--data_dir', type=str, default='../../data', help='Path to download data to.')
     parser.add_argument('--craft_dir', type=str, required=False, help='Path to download CRAFT dataset.')
     parser.add_argument('--replace_if_exists', action='store_true', help="Enable this to replace existing files.")
     args = parser.parse_args()
